@@ -14,11 +14,8 @@ class Movie
     {
         return $this->name;
     }
-};
+}
 
+$movie = new Movie('Fight Club');
+echo $movie->get_name();
 
-
-$movie = new Movie();
-$movie->$name = 'Fight Club'
-echo $movie->get_name(name);
-?>
